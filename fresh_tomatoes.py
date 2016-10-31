@@ -1,4 +1,4 @@
-#Copied from https://raw.githubusercontent.com/adarsh0806/ud036_StarterCode/master/fresh_tomatoes.py
+# Copied from https://raw.githubusercontent.com/adarsh0806/ud036_StarterCode/master/fresh_tomatoes.py
 
 import webbrowser
 import os
@@ -6,6 +6,7 @@ import re
 
 
 # Styles and scripting for the page
+# Body background color and movie tile hover color altered by Chad Rappleyea
 main_page_head = '''
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +22,7 @@ main_page_head = '''
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
-            background-color: #207373;  # added by Chad Rappleyea
+            background-color: #207373;  
         }
         #trailer.modal-dialog {
             margin-top: 200px;
@@ -43,7 +44,7 @@ main_page_head = '''
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #2EA4A4;  # added by Chad Rappleyea
+            background-color: #2EA4A4;  
             cursor: pointer;
         }
         .scale-media {
@@ -124,13 +125,15 @@ main_page_content = '''
 
 
 # A single movie entry html template
+# The Movie storyline header below was added by Chad Rappleyea
 movie_tile_content = '''
     <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
         <img src="{poster_image_url}" width="220" height="342">
         <h2>{movie_title}</h2>
-     <h6>{movie_storyline}</h6> # added by Chad Rappleyea
+     <h6>{movie_storyline}</h6> 
     </div>
 '''
+
 
 
 def create_movie_tiles_content(movies):
@@ -148,7 +151,7 @@ def create_movie_tiles_content(movies):
         # Append the tile for the movie with its content filled in
         content += movie_tile_content.format(
             movie_title=movie.title,
-            movie_storyline=movie.storyline,  # added by Chad Rappleyea
+            movie_storyline=movie.storyline,  # Added by Chad Rappleyea
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id
         )

@@ -17,7 +17,7 @@ Chads-Air:~ Chad_Rappleyea$ python /Users/Chad_Rappleyea/Udacity/proj_1_portfoli
 Extra Credit Description
 ------------------------
 CSS:
-The background color of the body of the website was changed to a dark, grayish-blue (#207373). The color of a tile when the mouse hovers over it was changed from white (#EEE) to a lighter blue (#2EA4A4). 
+The background color of the body of the website was changed to a dark, grayish-blue (#207373). The tile color when the mouse is hovering over it was changed from white (#EEE) to a lighter blue (#2EA4A4).
 
 CONTENT:
 I added the storyline for each of the movies into the create_movie_tiles_content function and in the movie_tile_content variable in fresh_tomatoes.py. This allowed for the brief movie synopsis to show up on the website below each respective movie title. I also added the year the movie came out as a part of the movie_title variable.

@@ -125,7 +125,7 @@ main_page_content = '''
 
 
 # A single movie entry html template
-# The Movie storyline header below was added by Chad Rappleyea
+# The movie storyline header below was added by Chad Rappleyea
 movie_tile_content = '''
     <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
         <img src="{poster_image_url}" width="220" height="342">

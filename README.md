@@ -1,4 +1,3 @@
-# movie_trailer_website
 Project: Movie Trailer Website  - Chad Rappleyea
 ================================
 

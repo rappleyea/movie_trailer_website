@@ -31,7 +31,7 @@ spinal_tap = media.Movie("This is Spinal Tap (1984)",
 when_harry_met_sally = media.Movie("When Harry Met Sally (1989)",
                                   "Two friends look for love in 1980s New York",
                                   "http://www.impawards.com/1989/posters/when_harry_met_sally_xxlg.jpg",
-                                  "https://www.youtube.com/watch?v=V8DgDmUHVto", )
+                                  "https://www.youtube.com/watch?v=V8DgDmUHVto",)
 
 movies = [bourne_identity, die_hard, good_bye_lenin, naked_gun, spinal_tap, when_harry_met_sally]
 fresh_tomatoes.open_movies_page(movies)

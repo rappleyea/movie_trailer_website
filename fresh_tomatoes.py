@@ -21,7 +21,7 @@ main_page_head = '''
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
-            background-color: #207373;
+            background-color: #207373;  # added by Chad Rappleyea
         }
         #trailer.modal-dialog {
             margin-top: 200px;
@@ -43,7 +43,7 @@ main_page_head = '''
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #2EA4A4;
+            background-color: #2EA4A4;  # added by Chad Rappleyea
             cursor: pointer;
         }
         .scale-media {
@@ -128,7 +128,7 @@ movie_tile_content = '''
     <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
         <img src="{poster_image_url}" width="220" height="342">
         <h2>{movie_title}</h2>
-     <h6>{movie_storyline}</h6>
+     <h6>{movie_storyline}</h6> # added by Chad Rappleyea
     </div>
 '''
 
@@ -148,7 +148,7 @@ def create_movie_tiles_content(movies):
         # Append the tile for the movie with its content filled in
         content += movie_tile_content.format(
             movie_title=movie.title,
-            movie_storyline=movie.storyline,
+            movie_storyline=movie.storyline,  # added by Chad Rappleyea
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id
         )

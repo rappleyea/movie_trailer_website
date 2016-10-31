@@ -3,7 +3,7 @@ Project: Movie Trailer Website  - Chad Rappleyea
 
 Required Libraries and Dependencies
 -----------------------------------
-This project requires the use of the Python 2.7.10.
+This project requires the use of the Python programming language and was created using Python 2.7.10.
 
 
 How to Run Project
